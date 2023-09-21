@@ -53,7 +53,7 @@ def get_text():
         (str): The text entered by the user
     """
     input_text = st.text_input("You: ", st.session_state["input"], key="input", 
-                            placeholder="Your AI assistant here! Ask me anything ...请在这里打字问问题吧", 
+                            placeholder="Your AI assistant here! Ask me anything ...", 
                             on_change=clear_text,    
                             label_visibility='hidden')
     input_text = st.session_state["temp"]
@@ -213,10 +213,10 @@ if st.session_state.stored_session:
         del st.session_state.stored_session
         
 # Load the images
-image1 = Image.open("wechatqrcode_leo.jpg")
-image2 = Image.open("zhifubaoqrcode_kyle.jpg")
-image3 = Image.open("paypalqrcode.png")
-image4 = Image.open("drpang_shipinhao2.jpg")
+#image1 = Image.open("wechatqrcode_leo.jpg")
+#image2 = Image.open("zhifubaoqrcode_kyle.jpg")
+#image3 = Image.open("paypalqrcode.png")
+#image4 = Image.open("drpang_shipinhao2.jpg")
 
 # Display the image with text on top
 #st.write("I have to pay OpenAI API for each of your usage. Please consider donating $5 to keep this service alive! Thank you!")
