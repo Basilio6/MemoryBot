@@ -231,18 +231,18 @@ image4 = Image.open("drpang_shipinhao2.jpg")
 #st.image(img, caption=None, width=200)
 
 # Divide the app page into two columns
-col1, col2, col3 = st.columns(3)
+#col1, col2, col3 = st.columns(3)
 
 # Display the first image in the first column
-with col1:
-    st.image(image1, caption="微信支付", width=200)
+#with col1:
+#    st.image(image1, caption="微信支付", width=200)
 
 # Display the second image in the second column
-with col2:
-    st.image(image2, caption="支付宝", width=200)
+#with col2:
+#    st.image(image2, caption="支付宝", width=200)
 
 # Display the third image in the third column
-with col3:
-    st.image(image3, caption="PayPal", width=200)
+#with col3:
+#    st.image(image3, caption="PayPal", width=200)
 
-st.image(image4, caption="史丹福机器人庞博士视频号，微信扫码前往", width=200)
+#st.image(image4, caption="史丹福机器人庞博士视频号，微信扫码前往", width=200)
